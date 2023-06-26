@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 5px 30px #7B7B7B29;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding-top: 8px;
+    padding-left: 7em;
+}
+.top1{
+    color: #00A5EC;
+}
+ .task{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        padding-top: 20px;
+        padding-right: 7em;
+        color: #424242;
+        font-size:20px;
+        gap: 10px;
+    }
+    .box:hover{
+        box-shadow: 2px 2px 8px #424242;
+    }
+    .task i{
+        color: #00A5EC;
+        font-size: 40px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .container-first{
+        width:80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 15px;
+        padding-top: 20px; 
+        margin-top: 10px;
+        
+    }
+    .box{
+        width: 330px;
+        height: 300px;
+        border: 1px solid #EDEDED;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        font-size: 17px;  
+    }
+    .box p{
+        font-size: 20px;
+        color: #00A5EC;
+        padding: 25px;
+    }
+   .box input{
+    margin-left: 30px;
+   }
+   input.paris1{
+    height: 22px;
+    width: 22px;
+   }
+   .box .line{
+    text-decoration: line-through;
+    color: #c2c2c2;
+   }
+   .card{
+display: flex;
+justify-content: center;
+
+   }
+   .card1{
+    width: 450px;
+    height: 220px;
+    border-radius: 10px;
+    position: absolute;
+    top: 8em;
+    background-color:#FFFFFF;
+  
+}
+.card1 p{
+    color: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+.inputbox5{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 2em;
+   
+}
+.inputbox5 input{
+    width: 100%;
+    height: 35px;
+    background-color: #FFFFFF;
+    padding-left: 5px;
+    color:#858585;
+    border: 1px solid #EDEDED;
+    border-radius: 5px
+}
+button{
+    align-self: flex-end;
+    width: 150px;
+    height: 40px;
+    background-color: #00A5EC;
+    color:#F7F7F7;
+    border: none;
+    border-radius: 5px;
+}
+.opacity{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 195%;
+    background-color: black;
+    opacity: 0.6;
+}
+.top2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    font-size: 30px;
+    height: 60px;
+}
+.task1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #424242;
+    font-size:20px;
+    gap: 10px;
+}
+.task1 i{
+    font-size: 25px;
+    color: #424242;
+}
+.task2{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: #424242;
+        font-size:20px;
+        gap: 10px;
+}
+.task2 i{
+    color: #00A5EC;
+    font-size: 35px;
+}

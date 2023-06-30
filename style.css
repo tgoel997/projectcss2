@@ -11,7 +11,7 @@
     align-items:center;
     gap: 10px;
     background-color:#FFFFFF;
-    padding-left: 7em;
+    padding-left: 7em;  
     color: #424242;
     box-shadow: 0px 6px 30px #7b7b7b29;
     font-size: 20px;
@@ -169,6 +169,31 @@ button{
     color: #00A5EC;
     font-size: 35px;
 }
-@media screen and (max-width:648px) {
-   
-}
+ @media screen and (max-width:660px) {
+    .task p{
+        display: none;
+    }
+    .task{
+        justify-content: center;
+        padding: 0px;
+        padding-top: 15px;
+
+    }
+    .top{
+        padding-left: 5px;
+    }
+    .card1{
+         width: 330px;
+         top: 12em;
+    }
+    .top2{
+        justify-content: flex-start;
+    }
+    .task2 p{
+        display: none;
+    }
+    .task1{
+         margin-left: 8px;
+    }
+ }
+ 
